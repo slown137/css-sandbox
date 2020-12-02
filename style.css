@@ -26,6 +26,14 @@ header {
     padding-left: 20px
 }
 
+.hello {
+    font-style: italic;
+}
+
+.my-name-is {
+    font-style: italic;
+}
+
 section {
     height: 80px;
     text-align: center;
