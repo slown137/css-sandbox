@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.yum {
+    height: 250px;
+    width: 1180px;
+    background-color: brown;
+    border-top: solid 5px blue;
+    border-bottom: solid 5px purple;
+    border-left: solid 5px tan;
+    border-right: solid 5px greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: greenyellow;
+    background-position: center;
+    background-image: url("https://www.squishable.com/mm5/graphics/00000001/squish_mini_hatsune_miku_7.jpg");
+}
+
+body {
+    background: rgb(189, 83, 101);
+};
+
+.butt {
+    color: palegoldenrod;
+    font-size: 250%;
+}
+
+div {
+    font-size: 200px;
+}
+
+.owo {
+    color: white;
+    text-align: center;
+}
+
+.div2 {
+    padding: 30px;
+    height: 200%;
+    margin: auto;
+    background-color: paleturquoise;
+}
+
