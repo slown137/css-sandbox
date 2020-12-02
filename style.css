@@ -9,45 +9,47 @@ html, body {
     border: 0;
 }
 
-.yum {
-    height: 250px;
-    width: 1180px;
-    background-color: brown;
-    border-top: solid 5px blue;
-    border-bottom: solid 5px purple;
-    border-left: solid 5px tan;
-    border-right: solid 5px greenyellow;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: greenyellow;
-    background-position: center;
-    background-image: url("https://www.squishable.com/mm5/graphics/00000001/squish_mini_hatsune_miku_7.jpg");
+main {
+    width: 500px;
+    height: 250;
 }
 
-body {
-    background: rgb(189, 83, 101);
-};
-
-.butt {
-    color: palegoldenrod;
-    font-size: 250%;
-}
-
-div {
-    font-size: 200px;
-}
-
-.owo {
+header {
+    background-color: red;
+    border-radius: 15px 15px 0px 0px;
+    text-align: left;
     color: white;
+    height: 120px;
+    font-size: 45px;
+    padding-top: 8px;
+    font-family: "Courier";
+    padding-left: 20px
+}
+
+section {
+    height: 80px;
     text-align: center;
+    font-size: 50px;
+    padding-top: 8px;
 }
 
-.div2 {
-    padding: 30px;
-    height: 200%;
-    margin: auto;
-    background-color: paleturquoise;
+.name {
+    background-color: white;
 }
 
+footer {
+    background-color: red;
+    border-radius: 0px 0px 15px 15px;
+    height: 20px;
+    font-size: 45px;
+    padding-top: 8px;
+}
+
+header img {
+    height: 90px;
+    float: right;
+    right: 30px;
+    top: 6px;
+    position: relative;
+    display: flex;
+}
