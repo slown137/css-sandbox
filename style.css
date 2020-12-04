@@ -11,7 +11,7 @@ html, body {
 
 main {
     width: 500px;
-    height: 250;
+    height: 250px;
 }
 
 header {
@@ -75,9 +75,26 @@ input {
     left: 150px;
     bottom: 20px;
 }
+
 .fun-buttons {
     display: flex;
     position: relative;
     top: 10px;
     left: 120px;
+}
+
+.rotate {
+    color: red;
+}
+
+.lightgreen {
+    color: rgb(47, 170, 47);
+}
+
+.pink {
+    color: rgb(231, 84, 109);
+}
+
+.lightblue {
+    color: rgb(64, 139, 163);
 }
