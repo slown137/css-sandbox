@@ -35,5 +35,8 @@ const rotateButton = document.getElementById('rotate-button');
 const mainThing = document.getElementById('main-element');
 
 rotateButton.addEventListener('click', () => {
-    mainThing.style.transform = 'rotate(-90deg)';
+    mainThing.style.transform = 'rotate(-123deg)';
+    mainThing.style.background = 'black';
+    theSection.textContent = 'oooooooooooo';
+    alert('WHY');
 });
