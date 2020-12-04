@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>name tag</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
+<body id="main-element">
     <main>
-        <header>
+        <header id="header-color-change">
             <img src="https://danbooru.donmai.us/data/sample/sample-77c5eb102bd7cee0c369e17c313e1ca8.jpg" alt="">
             <div class="hello">
                 Hello!
@@ -18,15 +19,24 @@
             </div>
         </header>
         <section>
-            <div class="name">
+            <div id="name-output" class="name">
                 Inugami Korone
             </div>
         </section>
-        <footer>
+        <footer id="footer-color-change">
             <div>
-
+                
             </div>
         </footer>
+        <button class="click" id="click-me">Click me!</button>
+        <input type="text" id="name-input">
+        <div class="fun-buttons">
+        <button id="rotate-button" class="rotate">rotate</button>
+        <button id="lightgreen-button" class="lightgreen">lightgreen</button>
+        <button id="pink-button" class="pink">pink</button>
+        <button id="lightblue-button" class="lightblue">lightblue</button>
+        </div>
     </main>
+    <script src="app.js"></script>
 </body>
 </html>
