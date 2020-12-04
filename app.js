@@ -27,8 +27,8 @@ lightGreenButton.addEventListener('click', () => {
 const lightBlueButton = document.getElementById('lightblue-button');
 
 lightBlueButton.addEventListener('click', () => {
-    headerColorChange.style.background = 'lightblue';
-    footerColorChange.style.background = 'lightblue';
+    headerColorChange.style.background = 'rgb(93, 194, 228)';
+    footerColorChange.style.background = 'rgb(93, 194, 228)';
 });
 
 const rotateButton = document.getElementById('rotate-button');
